@@ -1,4 +1,4 @@
-body, html {
+        body, html {
             margin: 0;
             padding: 0;
             width: 100%;
@@ -9,8 +9,14 @@ body, html {
         }
 
         a {
-            color: #C94E2C;
+            /* old red color */
+            /* color: #C94E2C; */
+            color: whitesmoke;
             text-decoration: underline;
+        }
+
+        h1 {
+            text-align: center;
         }
 
         nav {
@@ -32,6 +38,7 @@ body, html {
 
         .logo {
             height: 80%;
+            margin-right: 30px;
         }
 
         .background {
@@ -122,6 +129,10 @@ body, html {
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        .map p {
+            text-align: center;
         }
 
         footer {
