@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="copy.js"></script>
+    <script src="darkmode.js"></script>
+    <title>RA:PHOTO</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo"><img src='logo.png' alt="Logo" float=right height="100%"></a>
+        <ul>
+            <li><a href="index.html"></a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="photo.html">PHOTO</a></li>
+            <li><a href="art.html">ART</a></li>
+        </ul>
+    </nav>
+    
+    <div class="content">
+        <div class="post">
+            <div id="image">
+                <img src="photo/grancanaria_01.jpg" class="photo">
+            </div>
+            <div id="darkmode-switcher"><img src="images/darkmode.png" onclick="toggleBackground()" width="20px"></div>
+            <div class="description">
+                <p>When you travel alone, it's important to fully immerse yourself in this fantastic opportunity to explore the world on your own. Everything you feel and discover will be your own unique experience. Every step you take will be the result of your own decisions. Pure bliss. Disconnect from all means of communication and explore the world the old-fashioned way — through your eyes, ears, and nose. Breathe in the air, listen to the world around you, and remember what it was like when you were a child.</p>
+                <p>
+                    Camera: Canon ESO 300<br/>
+                    Film: Fujifilm Color 200<br/>
+                    <a href="https://maps.app.goo.gl/8NCxcaTMrhQyaAnr9" target="blank"><span id="textToCopy">28°07'53.9"N 15°26'41.8"W</span></a>&nbsp;<img src="images/copy_icon.png" height=11pt onclick="copyText()">
+                    <div id="copyAlert" class="hidden">Copied</div>
+                    
+                </p>
+                <p>If you find the picture in real life then most probably it relates to the next project:&nbsp;<a href="#">XXX</a></p>
+                <p>You can <a href="#">become the owner</a> and buy the original film negative</p>
+            </div>
+        </div>
+        <div class="separator"><p><img src="images/kraken.png"></p></div>
+
+<!-- PHOTO TEMPLATE 1.0 19.02.2025
+
+        <div class="post">
+            <div class="picture">
+                <img src="#">
+            </div>
+            <div class="description">
+                <p></p>
+                <p>
+                    Camera: Canon ESO 300<br/>
+                    Film: <br/>
+                    <a href="{{MAP URL}}" target="blank"><span id="textToCopy">{{COORDINATES}}</span></a>&nbsp;<img src="images/copy_icon.png" height=11pt onclick="copyText()">
+                    <div id="copyAlert" class="hidden">Copied</div>
+        </div>
+
+PHOTO TEMPLATE -->
+
+        <p></p>
+    </div>
+    
+    <footer>
+        <p>A piece of raality. <a href="map.html">Site map</a></p>
+    </footer>
+</body>
+</html>
