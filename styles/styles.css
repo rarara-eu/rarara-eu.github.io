@@ -8,10 +8,8 @@
             font-size: 9pt;
         }
 
-        h1 {
-            text-align: center;
-        }
 
+        /* MAIN MENU */
         nav {
             background-color: #393939;
             height: 60px;
@@ -48,11 +46,47 @@
             margin-right: 30px;
         }
 
+
+        /* FOOTER */
+        footer {
+            background: #393939;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer a {
+            color: whitesmoke;
+            text-decoration: underline;
+        }
+
+
+        /* MAIN CONTENT */
         .background {
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: hidden;
+        }
+
+        #intro {
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50%;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100px;
+            text-align: center;
         }
 
         .bg-image {
@@ -65,12 +99,17 @@
         .content {
             width: 750px;
             margin: 0 auto;
-            padding: 20px;
+            padding-top: 10px;
         }
 
         .photo {
             display: block;
-}
+            width: 75%;
+        }
+
+        h1 {
+            text-align: center;
+        }
 
         #image {
             background-color: white;
@@ -105,10 +144,11 @@
             align-items: center;
         }
 
-        .description {
+        .story {
             font-family: Inconsolata, monospace;
             font-size: 12pt;
             font-weight: 300;
+            line-height: 1.4;
         }
 
         #copyAlert {
@@ -140,16 +180,4 @@
 
         .map p {
             text-align: center;
-        }
-
-        footer {
-            background: #393939;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        footer a {
-            color: whitesmoke;
-            text-decoration: underline;
         }
